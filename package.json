@@ -2,7 +2,7 @@
   "name": "nodes",
   "version": "1.0.0",
   "description": "",
-  "main": "nudes.js",
+  "main": "src/index.js,
   "scripts": {
     "start": "babel-node ./app/vouches.js --presets es2015,stage-2",
     "test": "echo \"Error: no test specified\" && exit 1",
