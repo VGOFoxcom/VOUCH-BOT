@@ -1,0 +1,33 @@
+{
+  "name": "nodes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "nudes.js",
+  "scripts": {
+    "start": "babel-node ./app/vouches.js --presets es2015,stage-2",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": " rimraf libs && babel src -s -D -d libs --presets es2015,stage-2"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.1.0",
+    "firebase-admin": "^5.1.0",
+    "jsonfile": "^3.0.1",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "shell-quote": "^1.6.1",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-es2015-destructuring": "^6.23.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "eslint": "^4.4.1",
+    "eslint-config-google": "^0.9.1",
+    "rimraf": "^2.6.1"
+  }
+}
