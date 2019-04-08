@@ -11,7 +11,7 @@ export default {
 			marketTimeout: 12, // waiting time in hours per message
 		},
 	],
-	botID: '347455479028514816',
+	botID: '564883804490039317',
 	blockFile: './models/blocked.json',
 	vouchFile: './models/vouches.json',
 	commands: {
