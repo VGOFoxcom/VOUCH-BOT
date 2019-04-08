@@ -1,1 +1,1 @@
-worker: node src/app/vouches.js
+worker: node src/index.js
