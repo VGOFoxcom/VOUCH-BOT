@@ -1,5 +1,5 @@
 export default {
-	discordToken: '',
+	discordToken: 'NTY0ODgzODA0NDkwMDM5MzE3.XKuXLw.oqiXywbcP8aWXfd3kz8WKaPzjj8',
 	guilds: [
 		{
 			guildId: '348155543199678468',
